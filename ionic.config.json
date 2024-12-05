@@ -1,7 +1,0 @@
-{
-  "name": "mallorca-golf-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "custom"
-}

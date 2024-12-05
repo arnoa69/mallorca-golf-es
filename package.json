@@ -11,22 +11,15 @@
     "ionic:serve": "vite dev --host"
   },
   "dependencies": {
-    "@capacitor/app": "6.0.1",
-    "@capacitor/cli": "6.1.2",
-    "@capacitor/core": "6.1.2",
-    "@capacitor/haptics": "6.0.1",
-    "@capacitor/ios": "6.1.2",
-    "@capacitor/keyboard": "6.0.2",
-    "@capacitor/status-bar": "6.0.1",
     "@fortawesome/fontawesome-free": "^6.6.0",
     "bootstrap": "^5.3.3",
-    "pdfjs-dist": "^4.5.136",
     "vite-plugin-copy": "^0.1.6",
-    "vue": "^3.4.37",
-    "vue-router": "^4.4.3"
+    "pdfjs-dist": "^4.9.124",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.1.2",
-    "vite": "^5.4.1"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.2"
   }
 }
