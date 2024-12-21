@@ -13,8 +13,9 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "bootstrap": "^5.3.3",
+    "@pdftron/pdfjs-express-viewer": "^8.7.5",
+    "pdfjs-dist": "4.9.155",
     "vite-plugin-copy": "^0.1.6",
-    "pdfjs-dist": "^4.9.124",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
