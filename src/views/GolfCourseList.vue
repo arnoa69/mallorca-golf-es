@@ -28,7 +28,7 @@ const courses = {
   sonvida: { name: 'GOLF SON VIDA', url: 'https://arabella.golfmanager.com/consumer/ebookings?resource=&resourcetype=2', openInModal: false },
   calvia: { name: 'T GOLF CALVIA PONIENTE', url: 'https://tgolf.golfmanager.com/consumer/ebookings?i=1', openInModal: true },
   puntiro: { name: 'T GOLF PALMA PUNTIRO', url: 'https://tgolfpalma.golfmanager.com/consumer/ebookings', openInModal: false },
-  dor: { name: 'VALL D‘OR GOLF', url: 'https://open.imaster.golf/es/valldorgolf/disponibilidad', openInModal: true },
+  dor: { name: 'VALL D‘OR GOLF', url: 'https://eu.golfmanager.com/valldor/consumer/book?area=3', openInModal: true },
 };
 
 const openModal = (course) => {
