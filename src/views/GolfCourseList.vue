@@ -10,7 +10,7 @@ const iframeLoadError = ref(false);
 // Kursnamen und URLs mit Flags
 const courses = {
   alcanada: { name: 'CLUB DE GOLF ALCANADA', url: 'https://open.imaster.golf/en/alcanada/disponibilidad', openInModal: true },
-  andratx: { name: 'GOLF ANDRATX', url: 'https://open.imaster.golf/en/andratx/disponibilidad', openInModal: true },
+  andratx: { name: 'GOLF ANDRATX', url: 'https://eu.golfmanager.com/andratx/consumer/book?area=1', openInModal: false },
   bendinat: { name: 'GOLF DE BENDINAT', url: 'https://open.imaster.golf/en/bendinat/disponibilidad', openInModal: true },
   canyamel: { name: 'CANYAMEL GOLF', url: 'https://open.imaster.golf/en/canyamel/disponibilidad', openInModal: true },
   capdepera: { name: 'CAPDEPERA GOLF', url: 'https://open.imaster.golf/en/capdepera/disponibilidad', openInModal: true },
@@ -28,7 +28,7 @@ const courses = {
   sonvida: { name: 'GOLF SON VIDA', url: 'https://arabella.golfmanager.com/consumer/ebookings?resource=&resourcetype=2', openInModal: false },
   calvia: { name: 'T GOLF CALVIA PONIENTE', url: 'https://tgolf.golfmanager.com/consumer/ebookings?i=1', openInModal: true },
   puntiro: { name: 'T GOLF PALMA PUNTIRO', url: 'https://tgolfpalma.golfmanager.com/consumer/ebookings', openInModal: false },
-  dor: { name: 'VALL D‘OR GOLF', url: 'https://eu.golfmanager.com/valldor/consumer/book?area=3', openInModal: true },
+  dor: { name: 'VALL D‘OR GOLF', url: 'https://eu.golfmanager.com/valldor/consumer/book?area=3', openInModal: false },
 };
 
 const openModal = (course) => {
