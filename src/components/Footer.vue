@@ -20,7 +20,7 @@ const teeTimeBooking = () => {
 <template>
   <footer class="sticky-footer">
     <div class="footer-icons">
-      <i class="fas fa-home" @click="goHome">.</i>
+      <i class="fas fa-home" @click="goHome"></i>
       <button class="booking-button" @click="teeTimeBooking">Tee Time booking...</button>
       <i class="fas fa-external-link-alt" @click="openWebsite"></i>
     </div>
